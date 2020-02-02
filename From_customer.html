@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>การสร้างเว็บ</title>
+        <link rel="stylesheet" href="style/My_style.css">
+    </head>
+    <body>
+            <form>
+                <h2 align="center">ฟอร์มกรอกข้อมูลลูกค้า</h2>
+                <table class="txtlabel">
+                    <tr>
+                        <td>คำนำหน้าชื่อ</td>
+                        <td>
+                            <select>
+                                <option>--คำนำหน้าชื่อ--</option>
+                                <option value="1">นาย</option>
+                                <option value="2">นาง</option>
+                                <option value="3">นางสาว</option>
+                            </select>
+                        </td>
+                        <td>เพศ </td>
+                        <td class="txtred">
+                            <input type="radio" name="sex" value="ชาย"/>ชาย
+                            <input type="radio" name="sex" value="หญิง"/>หญิง
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>ชื่อ : </td>
+                        <td><input type="text" placeholder=""/></td>
+                        <td>นามสกุล : </td>
+                        <td><input type="text" placeholder=""/></td>
+                    </tr>
+                    <tr>
+                        <td>เบอร์โทรศัพท์ : </td>
+                        <td><input type="number" placeholder=""/></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>ที่อยู่ : </td>
+                        <td colspan="4" align="left">
+                        <textarea rows="3" cols="55"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" align="center">
+                            <button>บันทึกข้อมูล</button>
+                            <button>ล้างข้อมูล</button>
+                            <button><a href="index.html" >ย้อนกลับ</a></button>
+                        </td>
+                    </tr>
+                </table>
+                <!--
+                <label>ชื่อลูกค้า : </label>
+                <input type="text" placeholder="ชื่อลูกค้า"/>
+                <label>นามสกุล : </label>
+                <input type="text" placeholder="นามสกุล"/>
+                <br>
+                <label>เบอร์โทรศัพท์ : </label>
+                <input type="text" placeholder="เบอร์โทรศัพท์"/>
+-->
+            </form>
+    </body>
+</html>
